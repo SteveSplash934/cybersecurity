@@ -2,6 +2,7 @@
 
 # Author: @whiteshepherdsec | Steve Splash
 
+## Wfuzz
 ```bash
 # Author: @whiteshepherdsec
 
@@ -24,6 +25,8 @@ wfuzz -c -w /path/to/wordlist.txt -u https://example.com/FUZZ -o results.txt
 
 # Tags: #CyberSecurity #BugBounty #EthicalHacking #Fuzzing #Wfuzz
 ```
+
+## ZAP (OWASP Zed Attack Proxy)
 
 ```bash
 # Author: @whiteshepherdsec
@@ -48,6 +51,7 @@ zap-cli report -o zap_report.html -f html
 # Tags: #OWASP #WebSecurity #EthicalHacking #BugBounty #ZAP
 ```
 
+## Shodan
 ```bash
 # Author: @whiteshepherdsec
 
@@ -70,7 +74,7 @@ shodan search "default password" --limit 100 --fields ip_str,port,org,hostnames 
 
 # Tags: #Shodan #CyberSecurity #InternetOfThings #NetworkScanning #BugBounty
 ```
-
+## SQLmap
 ```bash
 # Author: @whiteshepherdsec
 
@@ -103,6 +107,7 @@ sqlmap -u "https://example.com/page.php?id=1" -o
 # Tags: #SQLInjection #BugBounty #EthicalHacking #DatabaseSecurity #SQLmap
 ```
 
+## Nikto
 ```bash
 # Author: @whiteshepherdsec
 
@@ -132,6 +137,7 @@ nikto -h https://example.com -Plugins all
 # Tags: #WebSecurity #VulnerabilityScanning #Nikto #CyberSecurity #BugBounty
 ```
 
+## Dirb
 ```bash
 # Author: @whiteshepherdsec
 
@@ -158,6 +164,7 @@ dirb https://example.com /path/to/wordlist.txt -R
 # Tags: #DirectoryBruteForce #WebSecurity #Dirb #CyberSecurity #BugBounty
 ```
 
+## Nuclei
 ```bash
 # Author: @whiteshepherdsec
 
@@ -190,6 +197,7 @@ nuclei -ut
 # Tags: #VulnerabilityScanning #CyberSecurity #Nuclei #BugBounty #EthicalHacking
 ```
 
+## Gobuster
 ```bash
 # Author: @whiteshepherdsec
 
